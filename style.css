@@ -1,0 +1,219 @@
+@import url("./fonts.css");
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+  max-width: 1256px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.company-name {
+  font-family: "FuturaBookC";
+  font-size: 14px;
+  padding-top: 37px;
+  color: #E3B873;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  min-width: 200px;
+  text-align: center;
+}
+
+header {
+  height: 83px;
+  background: #131313;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 581px;
+  min-width: 450px;
+  padding-top: 37px;
+}
+
+.nav-list {
+  font-family: "FuturaBookC";
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 581px;
+  margin-left: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  color: #E3B873;
+}
+
+.nav-list a:first-child {
+  color: #E3B873;
+}
+
+.nav-list a:first-child:hover {
+  color: white;
+}
+
+.telephone {
+  color: #E3B873;
+  font-family: "FuturaBookC";
+  padding-top: 37px;
+  min-width: 135px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.call-request {
+  min-width: 161px;
+  height: 32px;
+  margin-top: 24px;
+  background-color: #E3B873;
+  border: 0.1px solid #E3B873;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  font-family: "FuturaBookC";
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  color: white;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.call-request:hover {
+  background-color: white;
+  color: black;
+}
+
+.about-company {
+  height: 708px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.about-company .instagram {
+  background-color: #131313;
+  width: 5.7%;
+  font-family: "FuturaBookC";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.about-company .instagram .instagram-link {
+  margin-top: 227px;
+  width: 20px;
+  height: 174px;
+  margin-left: 37.8%;
+  text-decoration: none;
+  color: #E3B873;
+}
+
+.about-company .instagram .instagram-link:hover {
+  color: white;
+}
+
+.about-company .instagram .instagram-link__item {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.about-company .instagram .instagram-link__item-stripe {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.about-company .main-image {
+  width: 94.3%;
+}
+
+.about-company .main-image .main-image__item {
+  width: 100%;
+  max-width: 1440px;
+  min-width: 1000px;
+}
+
+.projects {
+  max-width: 1440px;
+  width: 100%;
+  height: 1074px;
+  background: url("./assets/images/projects-background.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects__description {
+  width: 30%;
+  max-width: 442px;
+  margin-top: 128px;
+  margin-left: 6.9%;
+  height: 390px;
+}
+
+.projects__description .projects__description-heading {
+  font-size: 27px;
+  width: 120px;
+  line-height: 37px;
+  font-family: "Yeseva One";
+  color: #E3B873;
+}
+
+.projects__description .projects__description-text {
+  margin-top: 34px;
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
+}
+
+.measurment {
+  background: url("./assets/images/Group (1).png");
+}
+
+@media screen and (max-width: 375px) {
+  .nav-list {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

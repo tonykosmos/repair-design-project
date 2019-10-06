@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url('./assets/fonts/Futurabookc.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+ @font-face {
+    font-family: 'Yeseva One';
+    src: url('./assets/fonts/YesevaOne.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }   
